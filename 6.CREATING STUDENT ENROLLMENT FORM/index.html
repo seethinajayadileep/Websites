@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Enrollment Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>STUDENT ENROLLED FORM</h1>
+    
+        <div class="left">
+            <div class="container">
+            <label for="">Name</label>
+            <label for="">Email</label>
+            <label for="">Contact No</label>
+            <label for="">Image Link</label>
+            <label for="">Gender</label>
+            <label> Skills</label>
+            <button id="mybtn">Enroll Student</button>
+        </div>
+
+        </div>
+        
+        <div class="left_center">
+            <input type="text" id="name">
+            <input type="email" name="" id="email">
+            <input type="text" id="contact">
+            <input type="url "id="url">
+            <input class="line" type="radio"value="Male" name="Male" id="male">
+            <span for="">Male</span>
+            <input class="line" type="radio" value="Female" name="Male" id="female">
+            <span for="" id="i">Female</span>
+            <br>
+            <input type="checkbox" name="" value="3" id="j">
+            <span>Java</span>
+            <input type="checkbox" name="" value="1"id="h">
+            <span>HTML</span>
+            <input type="checkbox" name=""value="2" id="c">
+            <span>CSS</span>
+            <button  id="mybtn2">Clear</button>
+        </div>
+        <div class="right_center">
+            <div class = "vertical"></div>
+        </div>
+        <div class="right">
+            <h2>Enrolled Students</h2>
+            <table id="t2" width="80%">
+                <tr>
+                    <th colspan="2">Student Details</th>
+                    <th>Image</th>
+                </tr>
+                <tr >
+                    <td colspan="2"><p>ALi</p>
+                    <p>Male</p>
+                    <p>Ali@gmail.com</p>
+                    <p>999999999</p>
+                   <p> Java ,HTML</p></td>
+                   <td>
+                    <img src="data:image/jpeg;base64,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" alt="">
+                   </td>
+                </tr>
+            </table>
+        </div>
+   
+    <script src="app.js"></script>
+</body>
+</html>

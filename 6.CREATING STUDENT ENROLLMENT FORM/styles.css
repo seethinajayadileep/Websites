@@ -1,0 +1,126 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+h1{
+    background-color:lightseagreen;
+    color: white;
+    text-align: center;
+}
+div{
+    margin: 0px;
+}
+
+ .vertical {
+            border-left: 6px solid cornflowerblue;
+            height: 50vh;
+            position:absolute;
+            left: 50%;
+            margin-top: 100px;
+            margin-bottom: 100px;
+}
+label{
+    display: block;
+    padding-top: 20PX;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 22px;
+}
+input{
+    display: block;
+    margin-top: 20px;
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    height: 22px;
+}
+
+input[type="radio"],input[type="checkbox"]{
+    display: inline-block;
+    padding-right: 0px;
+    width: 20px;
+    margin-left: 20px;
+}
+
+.left{
+    width: 25%;
+    height: 100vh;
+
+    position: fixed;
+    left: 0;
+}
+.left_center{
+    width: 25%;
+    height: 100vh;
+    left:25%;
+ 
+    position: fixed;
+}
+.right_center{
+    width: 25%;
+    height: 100vh;
+    right:25%;
+
+    position: fixed;
+
+}
+.right{
+    width: 25%;
+    height: 100vh;
+    
+    right: 0%;
+    position: fixed;
+}
+button{
+    display: block;
+}
+.left button{
+    background-color: blue;
+    color:white;
+    margin-left: 30% ;
+    margin-top:22%;
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor:pointer;
+    width: 100px;
+    text-align: center;
+}
+.left_center button{
+    background-color: red;
+    color:white;
+    margin-left: 30% ;
+    margin-top:20%;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor:pointer;
+    text-align: center;
+}
+table, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    
+  }
+  th{
+    background-color: green;
+    color:white
+  }
+table,h2{
+    margin-left: 20px;
+}
