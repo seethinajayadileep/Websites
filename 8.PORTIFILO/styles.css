@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Merriweather', serif;
+    text-align: center;
+}
+/*background-color:#66BFBF
+'Sacramento', cursive*/
+.container{
+    position: relative;
+    background-color:#E4F9F5;
+    
+    
+}
+.could{
+  
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#could1{
+    position: absolute;
+    left: 65%;
+   margin-left: 0;
+   margin-right: 0;
+}
+h2,h3{
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color:#66BFBF;
+
+}
+h5{
+    line-height: 2em;
+    margin-left: 34%;
+    margin-right: 34%;
+    font-size: large;
+}
+.pro{
+    text-decoration: underline;
+}
+#could2{
+    position: absolute;
+    left:20%;
+}
+#mountain1{
+    display: block;
+    margin-left: 30%;
+    left: auto;
+    right: auto;
+}
+
+.jaya{
+  display: block;
+    
+}
+#pic{
+   
+    margin-left: auto;
+    margin-right: auto;
+    
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+h4{
+    color:#66BFBF;
+    font-size: 2rem;
+}
+h4,p{
+    text-align: center;
+}
+p{
+    font-weight: 400px;
+    line-height: 2em;
+}
+hr{
+    margin-top: 30px;
+    margin-left: 40%;
+    margin-right: 40%;
+    border:dotted #EAF6F6 6px;
+    border-width: 4%;
+    
+}
+#s1{
+    text-decoration: none;
+    display: inline-block;
+}
+.computer{
+    
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.center{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.compimg{
+    padding-right: 30px;
+    border-radius: 50%;
+    width: 25%;
+    float: left;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.chiles{
+    
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+
+
+}
+#chill{
+    float: right;
+    height: 150px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 15px 40px;
+    background-color: #11cdd4;
+    border-radius:10px ;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+}
+a:hover{
+    background-color:#11999e ;
+}
+footer{
+    margin-top:30px;
+    height: 200px;
+  background-color: #11cdd4;  
+}
+ul{
+    list-style-type: none;
+    text-decoration: none;
+    padding-top: 50px;
+}
+li{
+    padding-top: 40px;
+    display: inline;
+    margin-right: 30px;
+    color: white;
+}
+#d{
+    height: 200px;
+}
